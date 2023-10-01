@@ -1,0 +1,206 @@
+.calculate {
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculate h2 {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+}
+
+.calculate p {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    color: #7e7d7d;
+    text-align: center;
+}
+
+.calculate .form .input {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.calculate .form .input .dp {
+    float: left;
+}
+
+.calculate .form .input .lp {
+    float: right;
+}
+
+
+.calculate .form {
+    width: 70%;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.calculate .form label {
+    font-family: monospace;
+    font-weight: lighter;
+    color: #313131;
+}
+
+.calculate .form select {
+    border: 1px solid #313131;
+    padding: 2px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+    text-decoration: dashed;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    outline: none;
+}
+
+
+
+.calculate .form .input input {
+    border: 1px solid #313131;
+    padding: 2px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+    text-decoration: dashed;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    color: #000;
+}
+
+.calculate .form .slide {
+    margin-top: 50px;
+    width: 80%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.calculate .form .Cards
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.calculate .form .Cards .card {
+    width: 30%;
+    padding: 10px;
+    height: 100px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculate .form .Cards .card .head {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    color: #313131;
+    margin-bottom: 10px;
+}
+
+.calculate .form .Cards .card .price {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: lighter;
+    color: #313131;
+}
+
+@media screen and (max-width: 768px)
+{
+    .calculate {
+        height: 100%;
+        width: 100%;
+        color: #000000;
+        background-color: #ffffff;
+        font-size: 15px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .calculate h2 {
+        font-size: 30px;
+        font-family: monospace;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .calculate p {
+        font-size: 15px;
+        font-family: monospace;
+        font-weight: lighter;
+        margin-bottom: 50px;
+        color: #7e7d7d;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .calculate .form .input {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .calculate .form .slide
+    {
+        color: #000;
+        margin-left: 30px;
+
+    }
+
+    .calculate .form .Cards 
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .calculate .form .Cards .card{
+        padding: 2px;
+    }
+
+    .calculate .form .Cards .card .head
+    {
+        font-size: 10px;
+    }
+
+    .calculate .form .Cards .card .price
+    {
+        font-size: 17px;
+    }
+
+
+    
+
+}

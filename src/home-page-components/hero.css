@@ -1,0 +1,32 @@
+
+.each-slide-effect>div>img {
+    width: 100%;
+    object-position: center;
+    position: sticky;
+    height: 90vh;
+    object-fit: cover;
+    padding-top: 150px;
+}
+
+
+.hero img{
+    width: 100%;
+    object-position: center;
+
+    height: auto;
+    object-fit: cover;
+    padding-top: 150px;
+}
+@media screen and (max-width: 768px) {
+    .each-slide-effect>div>img {
+        object-fit: contain;
+        height: auto;
+
+    }
+    .hero img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        padding-top: 150px;
+    }
+}
