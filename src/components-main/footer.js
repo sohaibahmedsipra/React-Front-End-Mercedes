@@ -16,7 +16,7 @@ const Footer = () => {
                     <img src="Mercedes-Logo.svg.png" alt="Mercedes Logo" />
                     <p className="company-name" >Mercedes-Benz</p>
                     <p>© 2023 Mercedes-Benz USA, LLC. All rights reserved.</p>
-
+                    <p>© Made by Sohaib Ahmed (LinkedIn)</p>
                 </div>
             </div>
         </div>
